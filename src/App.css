@@ -1,0 +1,100 @@
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 2.6rem;
+  color: #2d3748;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px rgba(49, 130, 206, 0.08);
+}
+
+.status-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.status-card {
+  background: #f7fafc;
+  border-radius: 8px;
+  padding: 20px 28px;
+  width: 260px;
+  height: 160px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+  text-align: left;
+  position: relative;
+  transition: box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.status-card:hover {
+  box-shadow: 0 4px 18px rgba(49, 130, 206, 0.12);
+}
+
+.status-card h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.5rem;
+  color: #3182ce;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-shadow: 0 1px 4px rgba(49, 130, 206, 0.08);
+}
+
+.status-card p {
+  margin: 8px 0;
+  font-size: 1.08rem;
+  color: #2d3748;
+}
+
+.status-card strong {
+  color: #805ad5;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.status-card a {
+  color: #38a169;
+  text-decoration: underline;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+.status-card a:hover {
+  color: #2b6cb0;
+}
+
+.status-indicator {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.status-indicator.online {
+  background: #38a169;
+  color: #fff;
+  box-shadow: 0 1px 6px rgba(56, 161, 105, 0.12);
+  letter-spacing: 0.5px;
+}
+
+.status-indicator.offline {
+  background: #e53e3e;
+  color: #fff;
+  box-shadow: 0 1px 6px rgba(229, 62, 62, 0.12);
+  letter-spacing: 0.5px;
+}
