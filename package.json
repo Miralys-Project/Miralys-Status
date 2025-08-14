@@ -1,0 +1,60 @@
+{
+  "name": "status-miralys",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Status website for the Miralys project",
+  "keywords": [
+    "website",
+    "status",
+    "miralys"
+  ],
+  "homepage": "https://github.com/Miralys-Project/Miralys-Status#readme",
+  "bugs": {
+    "url": "https://github.com/Miralys-Project/Miralys-Status/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miralys-Project/Miralys-Status.git"
+  },
+  "license": "Apache-2.0",
+  "author": "Miralys-Project",
+  "type": "module",
+  "main": "src/vite.config.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-angular": "^19.8.1",
+    "@eslint/js": "^9.33.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@typescript-eslint/eslint-plugin": "^8.39.1",
+    "@typescript-eslint/parser": "^8.39.1",
+    "@vitejs/plugin-react": "^5.0.0",
+    "conventional-changelog-cli": "^5.0.0",
+    "eslint": "^9.33.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "husky": "^9.1.7",
+    "jsdom": "^26.1.0",
+    "lint-staged": "^16.1.5",
+    "prettier": "^3.6.2",
+    "sass": "^1.90.0",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.39.1",
+    "vite": "^7.1.2"
+  }
+}
