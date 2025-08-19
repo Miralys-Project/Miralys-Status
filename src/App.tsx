@@ -48,6 +48,7 @@ const discordBots = [
   { name: 'Ayden', id: '1342880438523269272' },
   { name: 'Miralys Manager', id: '1399707511929700362' },
   { name: 'Miralys Tournament', id: '1404246305856819351' },
+  { name: 'Kairo', id: '1407069619184730223' },
 ];
 
 function App() {
